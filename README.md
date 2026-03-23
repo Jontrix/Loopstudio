@@ -16,7 +16,7 @@ Agrega aquí una **captura de pantalla** del resultado final de tu landing page.
 
 ### 🔗 Enlaces del proyecto
 
-- **Repositorio en GitHub:** [Agrega aquí la URL de tu repositorio](https://github.com/)
+- **Repositorio en GitHub:** https://github.com/Jontrix/Loopstudio.git
 - **Sitio desplegado (opcional):** https://loopstudios-lhgq4rhep-jovaniva66-7689s-projects.vercel.app/#
 
 ---
@@ -36,36 +36,28 @@ Lista las herramientas y tecnologías que utilizaste en el proyecto. Por ejemplo
 ---
 
 ### 💡 Lo que aprendí
-En esta sección describe brevemente **qué aprendiste o reforzaste** al desarrollar este proyecto.  
-Puedes incluir fragmentos de código o mencionar conceptos nuevos que aplicaste.
+Lo más valioso de este proyecto fue aprender a solucionar conflictos de dependencias entre versiones mayores de software. Reforcé la importancia de la arquitectura de archivos en Astro (carpeta public vs src) y cómo configurar manualmente un entorno de diseño cuando las herramientas automáticas fallan.
 
-Ejemplo:
-```html
-<header class="flex items-center justify-between p-6 text-white bg-black">
-  <img src="/logo.svg" alt="Loopstudios Logo" />
-</header>
-```
-```css
-.text-primary {
-  color: hsl(0, 0%, 100%);
-}
-```
-```js
-const toggleMenu = () => {
-  document.getElementById('menu').classList.toggle('hidden');
-}
-```
----
+<style is:global>
+  @import "tailwindcss"; /* Nueva forma de importar en v4 */
+
+  @theme {
+    --color-blanco: hsl(0, 0%, 100%);
+    --color-negro: hsl(0, 0%, 0%);
+    --font-josefin: "Josefin Sans", sans-serif;
+  }
+</style>
 
 ### 🚀 Áreas de mejora
 
 Menciona aquí los aspectos que podrías mejorar o seguir practicando en futuros proyectos.
 
-**Ejemplo:**
-- Mejorar el manejo del responsive en pantallas pequeñas.  
-- Implementar animaciones o transiciones suaves.  
-- Explorar el uso de variables de Tailwind personalizadas.  
-- Optimizar la estructura del proyecto y el uso de componentes.  
+Áreas de mejora
+Interactividad JS: Implementar el menú lateral  para la versión móvil utilizando estados de JavaScript.
+
+Optimización de Imágenes: Utilizar el componente <Image /> nativo de Astro para generar formatos .webp automáticamente.
+
+Animaciones: Añadir efectos de hover más suaves y transiciones de entrada .
 
 ---
 
@@ -73,7 +65,7 @@ Menciona aquí los aspectos que podrías mejorar o seguir practicando en futuros
 
 Incluye los enlaces, documentación o tutoriales que te ayudaron a completar este proyecto.
 
-**Ejemplo:**
+**Ejemplo:**(de hecho estos utilice jaja)
 - [Documentación de Astro](https://docs.astro.build)  
 - [Guía oficial de Tailwind CSS](https://tailwindcss.com/docs)  
 - [MDN Web Docs - HTML y CSS](https://developer.mozilla.org/es/)  
