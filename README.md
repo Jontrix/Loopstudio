@@ -10,7 +10,7 @@ El objetivo es aplicar los conocimientos sobre **componentes de Astro**, **maque
 ### 🧩 Vista previa del proyecto
 Agrega aquí una **captura de pantalla** del resultado final de tu landing page.  
 
-![Vista previa del proyecto](./screenshot.jpg)
+![Vista previa del proyecto](./screenshot.png)
 
 ---
 
