@@ -39,7 +39,7 @@ Lista las herramientas y tecnologías que utilizaste en el proyecto. Por ejemplo
 Lo más valioso de este proyecto fue aprender a solucionar conflictos de dependencias entre versiones mayores de software. Reforcé la importancia de la arquitectura de archivos en Astro (carpeta public vs src) y cómo configurar manualmente un entorno de diseño cuando las herramientas automáticas fallan.
 
 <style is:global>
-  @import "tailwindcss"; /* Nueva forma de importar en v4 */
+  @import "tailwindcss"; 
 
   @theme {
     --color-blanco: hsl(0, 0%, 100%);
