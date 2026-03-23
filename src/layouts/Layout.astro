@@ -1,23 +1,52 @@
+---
+interface Props {
+	title: string;
+}
+const { title } = Astro.props;
+---
+
 <!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>{title}</title>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 	</head>
-	<body>
+	<body class="bg-blanco">
 		<slot />
 	</body>
 </html>
 
-<style>
-	html,
-	body {
+<style is:global>
+	@import "tailwindcss";
+
+	@theme {
+		--color-blanco: hsl(0, 0%, 100%);
+		--color-negro: hsl(0, 0%, 0%);
+		--color-gris-dark: hsl(0, 0%, 41%);
+		--color-gris-very-dark: hsl(0, 0%, 55%);
+		--font-josefin: 'Josefin Sans', sans-serif;
+		--font-alata: 'Alata', sans-serif;
+	}
+
+	html, body {
 		margin: 0;
 		width: 100%;
 		height: 100%;
+		font-family: var(--font-alata);
+	}
+
+	h1, h2, h3 {
+		font-family: var(--font-josefin);
+		text-transform: uppercase;
+		font-weight: 300;
 	}
 </style>

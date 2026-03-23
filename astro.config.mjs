@@ -1,5 +1,6 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  // Dejamos esto vacío por ahora para que no busque la integración rota
+  integrations: [],
+});
