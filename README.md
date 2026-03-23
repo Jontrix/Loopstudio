@@ -70,7 +70,7 @@ Incluye los enlaces, documentación o tutoriales que te ayudaron a completar est
 - [Guía oficial de Tailwind CSS](https://tailwindcss.com/docs)  
 - [MDN Web Docs - HTML y CSS](https://developer.mozilla.org/es/)  
 - [Guía de diseño responsivo](https://web.dev/responsive-web-design-basics/)  
-
+-tambien tuve que utilizar gemini para unos errores que no podia solucionar con Tailwind CSS v4
 ---
 
 ### 👩‍💻 Autor
@@ -87,9 +87,9 @@ Incluye los enlaces, documentación o tutoriales que te ayudaron a completar est
 Comparte brevemente tu experiencia durante el desarrollo del proyecto.  
 Puedes responder a preguntas como:
 
-- ¿Qué fue lo más fácil o lo más difícil de realizar?  Lo más retador fue la configuración inicial de Tailwind CSS v4 con Astro 6. Tuvimos que solucionar errores de dependencias (ERRESOLVE) y configurar manualmente postcss.config.mjs para que los estilos se aplicaran correctamente.
+- ¿Qué fue lo más fácil o lo más difícil de realizar?  Lo más retador fue la configuración inicial de Tailwind CSS v4 con Astro 6. Tuvee que solucionar errores de dependencias  y configurar manualmente postcss.config.mjs para que los estilos se aplicaran correctamente.
 
-- ¿Qué parte disfrutaste más del desarrollo?   La parte de maquetar la galería de "Our Creations". Fue muy satisfactorio ver cómo una lista de datos (array) se transformaba automáticamente en una cuadrícula profesional usando map() en Astro.
+- ¿Qué parte disfrutaste más del desarrollo?   La parte de maquetar la galería fue muy satisfactorio ver cómo una lista de datos (array) se transformaba automáticamente en una cuadrícula profesional usando map() en Astro.
 - ¿Qué conceptos nuevos aprendiste?  Aprendí sobre el ciclo de vida de los hooks de configuración de Astro (astro:config:setup) y el uso de la directiva @theme en la nueva versión de Tailwind.
 
 - ¿Cómo aplicarías lo aprendido en proyectos futuros? Aplicaré esta estructura de componentes reutilizables en mis próximos proyectos escolares para mantener un código limpio y fácil de mantener.
